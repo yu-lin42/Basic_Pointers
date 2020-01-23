@@ -38,7 +38,7 @@ int		main(int argc, char **argv)
 	
 	str1 = argv[1];
 	len = ft_strlen(str1);
-	str2 = malloc(sizeof(char) * (len + 1));
+	str2 = (char*)malloc(sizeof(char) * (len + 1));
 	str2[0] = '\0';
 
 	print_a("Before:\n");
