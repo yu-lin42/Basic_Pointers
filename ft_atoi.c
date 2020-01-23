@@ -5,7 +5,7 @@ int		ft_isdigit(int c)
 	return (0);
 }
 
-int				ft_atoi(const char *str)
+int				ft_atoi(char *str)
 {
 	int nbr;
 	int check;
